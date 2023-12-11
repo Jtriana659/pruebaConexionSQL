@@ -11,7 +11,7 @@ namespace pruebaConexion
     {
         static void Main(string[] args)
         {
-            string connectionString = "Data Source=SWO5CD2107N47\\SQLV3;Initial Catalog=mvc;Integrated Security=True";
+            string connectionString = "Data Source=mi_servidor;Initial Catalog=mi_tabla;Integrated Security=True";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
